@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS PRODCUT_ORDER;
+
+CREATE TABLE PRODCUT_ORDER
+( ID long AUTO_INCREMENT PRIMARY KEY,
+ Product_Name VARCHAR(250) NOT NULL,
+ Model_Name VARCHAR(250) NOT NULL, 
+ PRICE long
+ );
+
+INSERT INTO PRODCUT_ORDER (Product_Name, Model_Name,PRICE) VALUES
+  ('Apple-A', 'apple',121),
+  ('Dell', 'Inspiron',435);
+  
+  
